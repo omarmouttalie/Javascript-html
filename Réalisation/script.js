@@ -12,7 +12,7 @@ button.addEventListener("click", function addTask() {
     listContainer.appendChild(li);
     let span = document.createElement("span");
     span.innerHTML = "&#x2716;";
-    li.appendChi,ld(span);
+    li.appendChild(span);
   }
   inputBox.value = "";
   saveData();
